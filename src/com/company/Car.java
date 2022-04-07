@@ -1,8 +1,8 @@
 package com.company;
 
 public class Car {
-    String model,brand ;
-    float price;
+    private String model,brand ;
+    private float price;
 
     public String getBrand() {
         return this.brand;

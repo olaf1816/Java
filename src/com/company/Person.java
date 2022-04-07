@@ -1,9 +1,23 @@
 package com.company;
 
 public class Person {
-    //Atributs de la classe
-    String name, surname, dni;
-    float height, width;
+    //Atributs de la classe, se declaran como privados para que solo se puedan utilizar con los metodos declarados.
+    private String name, surname, dni;
+    private float height, width;
+
+    //CONSTRUCTORES
+    //Constructor general
+    public Person(String name, String surname, String dni, float height, float width){
+        this.setName(name);
+        this.setSurname(surname);
+        this.setDni(dni);
+        this.setHeight(height);
+        this.setWidth(width);
+    }
+    //Constuctor solo string
+    public Person(String name, String surname, String dni){
+        this(name, surname, dni, 1.72f,  70.0f);
+    }
 
     //getName:retorna el valor que conté l'atribut 'name' a quien lo invoca.
     public String getName(){

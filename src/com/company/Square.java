@@ -1,7 +1,7 @@
 package com.company;
 
 public class Square {
-    float area, height, width;
+    private float area, height, width;
 
     public float getArea() {
         return this.area;

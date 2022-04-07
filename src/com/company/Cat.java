@@ -1,8 +1,8 @@
 package com.company;
 
 public class Cat {
-    String race;
-    int year;
+    private String race;
+    private int year;
 
     public String getRace() {
         return this.race;

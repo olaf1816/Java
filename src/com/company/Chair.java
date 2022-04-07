@@ -1,8 +1,8 @@
 package com.company;
 
 public class Chair {
-    String material;
-    float height, price;
+    private String material;
+    private float height, price;
 
     public String getMaterial() {
         return this.material;
